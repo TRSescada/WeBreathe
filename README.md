@@ -3,6 +3,8 @@
 
 *Tout d'abord il faut connecter l'application à votre base de données
 
+*Après vous importez les data de database\migrations\webreathe.sql dans votre base de donnée
+
 *Pour créer un nouveau module on le fais en clickant sur le bouton "Add new" qui nous redirect vers le formulaire d'ajout
 
 *Pour visulaizer les details necessaire pour un module il suffit de clicker sur "View" et on se redirect vers la page ou on voit tous les details

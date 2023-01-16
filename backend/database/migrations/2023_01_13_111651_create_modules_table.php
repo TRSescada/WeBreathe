@@ -18,7 +18,6 @@ return new class extends Migration
             $table->string("nom");
             $table->longText('description');
             $table->boolean("etat");
-            $table->float("valeur actuelle");
             $table->timestamps();
         });
     }

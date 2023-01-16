@@ -9,9 +9,11 @@
 
 *La génration automatiques des données , le dysfonctionnement aléatoire d'un module et la tolérance aux pannes des modules sont des scripts dans ce projet :
 Pour les tester merci de copier ce code dans le console :
+```
 -php artisan module:GenerateData    (pour générer des données aléatoirement pour des modules aléatoire)
 -php artisan module:shutdown        (pour dysfonctionner un module aléatoirement)
 -php artisan module:tolerance       (pour refonctionner un module en panne)
+```
 Pour faire tourner ces scripts en background (chaque 5 minutes) merci d'utiliser cette commande : php artisan schedule:work
 
 *Pour activer la notification on a utilisé le pusher (merci de le configurer en suivant les étapes mentionné dans la documentation https://laravel.com/docs/9.x/broadcasting)

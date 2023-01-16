@@ -16,6 +16,6 @@ Pour les tester merci de copier ce code dans le console :
 ```
 Pour faire tourner ces scripts en background (chaque 5 minutes) merci d'utiliser cette commande : php artisan schedule:work
 
-*Pour activer la notification on a utilisé le pusher (merci de le configurer en suivant les étapes mentionné dans la documentation https://laravel.com/docs/9.x/broadcasting)
+*Pour activer la notification on a utilisé le pusher (merci de le configurer en suivant les étapes mentionné dans la documentation https://laravel.com/docs/9.x/broadcasting) <br />
 *A chaque fois qu'un module tombe en panne en reçoit une notification contenant le nom du module et qu'il est en panne (et cela fonctionne dans n'import qu'elle view vous êtes en train de visiter)
 *Si vous voulez tester la notification il suffit de faire tourner le script du shutdown (aprés avoir configurer le pusher)
